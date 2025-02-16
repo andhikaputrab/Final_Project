@@ -1,5 +1,5 @@
 # Streamlit settings
-PAGE_TITLE: "House Price Prediction"
+PAGE_TITLE: "Overview"
 PAGE_ICON: "static/img/home.png"
 LAYOUT: "wide"
 
@@ -7,13 +7,13 @@ PAGE_TITLE_PROFILE: "Profile"
 PAGE_ICON_PROFILE: "static/img/profile.png"
 LAYOUT_PROFILE: "wide"
 
-PAGE_TITLE_ANALYTICS: "Analytics"
-PAGE_ICON_ANALYTICS: "static/img/analysis.png"
-LAYOUT_ANALYTICS: "wide"
+PAGE_TITLE_CHAT: "Chat"
+PAGE_ICON_CHAT: "🤖"
+LAYOUT_CHAT: "wide"
 
-PAGE_TITLE_PREDICTION: "Predictions"
-PAGE_ICON_PREDICTION: "static/img/prediction.png"
-LAYOUT_PREDICTION: "wide"
+# Database Configuration
+DATABASE_NAME: "question_answering"
+COLLECTION_NAME: "wikipedia_documents"
 
 # Data Configuration
 train_data_path: "artifacts/train.csv"

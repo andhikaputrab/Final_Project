@@ -16,7 +16,7 @@ def get_requirements(file_path:str) -> List[str]:
     return requirements
 
 setup(
-    name             = 'mlops house price prediction streamlit',
+    name             = 'Question Answering',
     version          = '0.0.1',
     author           = 'Andhika Putra Bagaskara',
     author_email     = 'andhikaputra1301@gmail.com',
